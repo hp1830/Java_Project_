@@ -1,6 +1,7 @@
 package Utill_String;
 
 public class Utill_Data1 {
+	// 문자열 반전 시키기
     public static String Rav(String s , boolean Op )
     {
     	String Result="";
@@ -18,6 +19,7 @@ public class Utill_Data1 {
     	}
     	return Result;
     }
+    //2진수 만들기 
 	public static String ToBin(int i)
 	{
 		if(i==1)
@@ -27,8 +29,15 @@ public class Utill_Data1 {
 		else
 			return ((i%2)==0 ? "0":"1")+ToBin(i/2);
 	}
+	//2진수 만들기
 	public static String ToBin(String num)
 	{
 		return ToBin(Integer.parseInt(num));
 	}
+	
+	public static void TEST()
+	{
+		
+	}
+	
 }
